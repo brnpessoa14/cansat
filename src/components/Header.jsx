@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import IbmecLogo from '../assets/Ibmec_logo.png';
 
 function Header() {
@@ -15,9 +16,9 @@ function Header() {
     <>
       <header>
         <div className="container header-container">
-          <a href="/" className="logo" aria-label="Página inicial do CanSat Ibmec">
+          <Link to="/" className="logo" aria-label="Página inicial do CanSat Ibmec">
             <img src={IbmecLogo} alt="Logotipo do Ibmec" className="logo-img" />
-          </a>
+          </Link>
 
           {/* 3. Adicionamos o evento de clique no botão para chamar nossa função. */}
           {/* A classe 'active' é adicionada dinamicamente quando o menu está aberto. */}
@@ -43,7 +44,7 @@ function Header() {
               <li><a href="/#sobre">Sobre</a></li>
               <li><a href="/#cronograma">Cronograma</a></li>
               <li><a href="/#regras">Regras</a></li>
-              <li><a href="/inscricao">Inscrição</a></li>
+              <li><Link to="/inscricao">Inscrição</Link></li>
               <li><a href="/#contato">Contato</a></li>
             </ul>
           </nav>
