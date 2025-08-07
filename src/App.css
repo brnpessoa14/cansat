@@ -359,3 +359,48 @@ footer {
   padding: 0.5rem 0;
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.6);
 }
+
+/* Estilos específicos para links do React Router */
+nav a,
+nav Link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  display: block;
+  padding: 0.5rem 0;
+}
+
+nav a:hover,
+nav Link:hover {
+  color: #d53636;
+}
+
+/* Garantir que os links do React Router tenham o mesmo estilo */
+nav a,
+nav Link,
+nav a:visited,
+nav Link:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* Estilos para links ativos */
+nav a.active,
+nav Link.active {
+  color: #d53636;
+}
+
+/* Ajuste para o logo link */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,12 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function FormularioInscricao() {
+  const navigate = useNavigate();
+
   // Em um projeto real, você usaria o estado do React para controlar os inputs
   // e uma função para lidar com o envio do formulário.
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Redireciona para a página de sucesso
-    window.location.href = '/sucesso';
+    // Redireciona para a página de sucesso usando React Router
+    navigate('/sucesso');
   };
 
   return (
