@@ -7,7 +7,6 @@ O foco foi criar uma aplicação **responsiva** e **modular**, utilizando **Java
 
 ## 🔗 Links
 - **🌐 Site Online:** [Acesse aqui](https://cansat-git-main-brunowpessoa-gmailcoms-projects.vercel.app/)  
-- **📂 Repositório no GitHub:** [Clique aqui](https://github.com/brnpessoa14/cansat)  
 
 ---
 
